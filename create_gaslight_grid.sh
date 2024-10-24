@@ -8,7 +8,7 @@ output_dir='/research/astrodata/highz/gaslight/cloudy'
 
 # standard SPS grid
 incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8.")
-config_file=("sps-c23.01-test-v1")
+config_files=("sps-c23.01-test-v1")
 
 # standard AGN grid
 # incident_grids=( "qsosed-isotropic-limited" )

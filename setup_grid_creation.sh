@@ -14,11 +14,11 @@ machine='apollo2'
 
 # standard SPS grid
 # incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8.")
-# config_file=("c23.01-full")
+# config_files=("c23.01-full")
 
 # standard SPS grid
 incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0-ages:6.,7.,8.")
-config_file=("sps-c23.01-test-v1")
+config_files=("sps-c23.01-test-v1")
 
 # standard AGN grid
 # incident_grids=( "qsosed-isotropic-limited" )
