@@ -33,9 +33,9 @@ for i in "${!incident_grids[@]}"; do
     # run the setup script
     python setup_grid_creation.py -grid_dir=$grid_dir -incident_grid=$incident_grid -config_file=$config_file -output_dir=$output_dir -cloudy_dir=$cloudy_dir -machine=$machine
 
-    # now run a single grid point
-    # index=1
-    # python run_cloudy.py -grid_dir=$grid_dir -incident_grid=$incident_grid -config_file=$config_file -output_dir=$output_dir -cloudy_dir=$cloudy_dir -index=$index
+    # echo the command to run the first grid point (for testing / development purposes)
+    index=1
+    echo python run_cloudy.py -grid_dir=$grid_dir -incident_grid=$incident_grid -config_file=$config_file -output_dir=$output_dir -cloudy_dir=$cloudy_dir -index=$index
 
 done
 
