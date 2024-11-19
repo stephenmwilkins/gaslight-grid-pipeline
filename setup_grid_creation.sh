@@ -36,6 +36,8 @@ config_files=("agn-c23.01-v1")
 # incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0"  "qsosed-isotropic-limited")
 # config_files=("sps-c23.01-v1" "agn-c23.01-v1")
 
+incident_grids=("bpl-feltre16" "bpl-feltre16")
+config_files=("agn-c23.01-extremes-v1" "agn-c23.01-reduced-v1")
 
 
 cd ..
