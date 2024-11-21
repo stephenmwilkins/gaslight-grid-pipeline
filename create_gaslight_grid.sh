@@ -39,7 +39,7 @@ config_files=("agn-c23.01-reduced-v1" "agn-c23.01-v1")
 # config_files=("agn-c23.01-v1")
 
 incident_grids=("qsosed-isotropic-limited")
-config_files=("agn-c23.01-reduced-v1")
+config_files=("agn-c23.01-extremes-v1")
 
 cd ..
 
