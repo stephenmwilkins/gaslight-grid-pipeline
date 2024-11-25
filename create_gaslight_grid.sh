@@ -56,6 +56,15 @@ config_files=("agn-c23.01-test-v1" "agn-c23.01-extremes-v1" "agn-c23.01-reduced-
 incident_grids=("qsosed-isotropic-limited" "qsosed-isotropic-limited" "bpl-feltre16" "bpl-feltre16" )
 config_files=("agn-c23.01-reduced-v1" "agn-c23.01-v1" "agn-c23.01-reduced-v1" "agn-c23.01-v1")
 
+# just full 
+incident_grids=("qsosed-isotropic-limited" "bpl-feltre16")
+config_files=("agn-c23.01-v1" "agn-c23.01-v1")
+
+# just reduced 
+incident_grids=("qsosed-isotropic-limited" "bpl-feltre16")
+config_files=("agn-c23.01-reduced-v1" "agn-c23.01-reduced-v1")
+
+
 cd ..
 
 for i in "${!incident_grids[@]}"; do
