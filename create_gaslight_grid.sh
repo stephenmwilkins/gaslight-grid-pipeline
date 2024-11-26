@@ -57,13 +57,8 @@ incident_grids=("qsosed-isotropic-limited" "qsosed-isotropic-limited" "bpl-feltr
 config_files=("agn-c23.01-reduced-v1" "agn-c23.01-v1" "agn-c23.01-reduced-v1" "agn-c23.01-v1")
 
 # just full 
-incident_grids=("qsosed-isotropic-limited" "bpl-feltre16")
-config_files=("agn-c23.01-v1" "agn-c23.01-v1")
-
-# just reduced 
-# incident_grids=("qsosed-isotropic-limited" "bpl-feltre16")
-# config_files=("agn-c23.01-reduced-v1" "agn-c23.01-reduced-v1")
-
+incident_grids=("qsosed-isotropic-limited" )
+config_files=("agn-c23.01-v1")
 
 cd ..
 
